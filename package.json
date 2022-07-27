@@ -1,0 +1,25 @@
+{
+  "name": "cypresscourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerranPetit97/CypressCourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerranPetit97/CypressCourse/issues"
+  },
+  "homepage": "https://github.com/FerranPetit97/CypressCourse#readme",
+  "dependencies": {
+    "cypress": "^10.3.1",
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.1"
+  }
+}
