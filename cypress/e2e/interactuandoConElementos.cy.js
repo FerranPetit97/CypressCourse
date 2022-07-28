@@ -51,5 +51,14 @@ describe('Interactuando con los elementos', () => {
       // windows o command en mac
       metaKey: true,
     });
+
+    it('Input type text', () => {
+      cy.visit('/automation-prectice-form');
+      cy.get('#firstName').type('Ferran');
+      cy.get('#lastName').type('Petit');
+      cy.get('#firstName').type('{selectAll}{backspace}');
+      cy.get('#firstName').type('Otro nombre');
+      cy.get('#firstName').clear();
+    });
   });
 });

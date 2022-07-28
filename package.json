@@ -2,19 +2,21 @@
   "name": "cypress_ui_platzi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "e2e.js",
   "scripts": {
     "test:ui": "cypress open",
     "test:headless": "cypress run",
     "test:headless:chrome": "cypress run --browser chrome",
-    "comentatrio de firefox(no es un script)": " hay un bug abierto ya que en firefox no graba video https://github.com/cypress-io/cypress/issues/18415",
+    "comentario de firefox(no es un script)": " hay un bug abierto ya que en firefox no graba video https://github.com/cypress-io/cypress/issues/18415",
     "test:headless:firefox": "cypress run --browser firefox --spec cypress/integration/navegacion.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.0",
-    "prettier": "^2.5.1"
+    "cypress": "^10.3.1",
+    "eslint": "^8.20.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "prettier": "^2.7.1"
   }
 }
