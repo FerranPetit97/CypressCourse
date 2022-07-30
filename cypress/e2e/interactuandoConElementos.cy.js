@@ -60,5 +60,10 @@ describe('Interactuando con los elementos', () => {
       cy.get('#firstName').type('Otro nombre');
       cy.get('#firstName').clear();
     });
+
+    it.only('CheckBoxes y radio botones', () => {
+      cy.visit('/automation-prectice-form');
+      cy.get('#gender-radio-1').click();
+    });
   });
 });

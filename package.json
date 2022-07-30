@@ -4,7 +4,7 @@
   "description": "",
   "main": "e2e.js",
   "scripts": {
-    "test:ui": "cypress open",
+    "test": "cypress open",
     "test:headless": "cypress run",
     "test:headless:chrome": "cypress run --browser chrome",
     "comentario de firefox(no es un script)": " hay un bug abierto ya que en firefox no graba video https://github.com/cypress-io/cypress/issues/18415",
